@@ -1,0 +1,112 @@
+
+@import "bootstrap";
+$special-black: rgb(20,20,20);
+$special-red: rgb(153,43,50);
+$special-white: rgb(196,200,186);
+
+
+@font-face {
+  font-family: Mohave;
+  src: 
+    url(Mohave.otf)
+ }
+
+ html {
+ 	background-color: $special-black;
+ }
+
+/* title */
+.container {
+	background-color:$special-black;
+	margin-top: 400px;
+	width: 100%;
+	height: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+.intro-title{
+	background-color:$special-black;
+	margin-bottom: 20px;
+	margin-top: 250px;
+	font-family: Mohave;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 75px;
+	text-align: center;
+	color:$special-red;
+    
+}
+
+.intro-description{
+	font-family: Mohave;
+	font-size: 18px;
+	line-height: 75px;
+	text-align: center;
+	color:$special-white;
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: transparent;
+    text-decoration: none;
+    text-align:center;
+    font-family: Mohave;
+    color: $special-white;
+    border:$special-red;
+    border-style: solid;
+    border-width: 1px;
+    width:300px;
+    margin-left: 38%;
+}
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: $special-white;
+  text-decoration: none;
+}
+
+/** sign up **/
+.signup-box {
+    background-color:$special-black;
+    border:$special-red;
+    border-style: solid;
+    border-width: 1px;
+    width:450px;
+    margin-left: 33%;
+    margin-top: 100px;
+
+}
+
+.form-title{
+  background-color:$special-black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Mohave;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: center;
+  color:$special-red;
+    
+}
+.form-control {
+
+}
+
