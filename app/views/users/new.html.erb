@@ -9,19 +9,15 @@
    <div class="form-title">Signup</div>
       <%= form_for(User.new) do |f| %> <!-- built-in form creation function -->
 
-      <%= f.label :username %>
-      <%= f.text_field :username, class: 'form-control' %>
+      <%= f.text_field :username, class: 'form-control', :placeholder => "username" %>
 
-      <%= f.label :email %>
-      <%= f.text_field :email, class: 'form-control' %>
+      <%= f.text_field :email, class: 'form-control', :placeholder => "email" %>
 
-      <%= f.label :password %>
-      <%= f.password_field :password, class: 'form-control' %>
+      <%= f.password_field :password, class: 'form-control', :placeholder => "password" %>
 
-      <%= f.label :password_confirmation, "Password Confirmation" %>
-      <%= f.password_field :password_confirmation, class: 'form-control' %>
+      <%= f.password_field :password_confirmation, class: 'form-control', :placeholder => "confirm password" %>
 
-      <%= f.submit "Create Account", class: "btn btn-primary" %>
+      <%= f.submit "Create Account", class: "form-button grow" %>
       <% end %>
 </div>
 </div>

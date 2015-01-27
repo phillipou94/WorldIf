@@ -3,7 +3,7 @@
 $special-black: rgb(20,20,20);
 $special-red: rgb(153,43,50);
 $special-white: rgb(196,200,186);
-
+$special-gray: rgb(38,38,38);
 
 @font-face {
   font-family: Mohave;
@@ -21,7 +21,7 @@ $special-white: rgb(196,200,186);
 	margin-top: 400px;
 	width: 100%;
 	height: 100%;
-    margin: 0 auto;
+  margin: 0 auto;
 
 }
 
@@ -107,6 +107,47 @@ $special-white: rgb(196,200,186);
     
 }
 .form-control {
+  background-color:$special-gray;
+  border: $special-gray;
+  margin-bottom: 5%;
+  color: $special-white;
+  font-family: "Trebuchet MS";
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
 
 }
+
+.form-control:focus{
+    border: $special-red;
+    outline:$special-red;
+    box-shadow:none;
+}
+
+.form-button {
+    display: inline-block;
+    padding: 1em;
+    background-color: transparent;
+    text-decoration: none;
+    text-align:center;
+    font-family: Mohave;
+    color: $special-white;
+    border:$special-red;
+    border-style: solid;
+    border-width: 1px;
+    width:50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.checkbox {
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
 
